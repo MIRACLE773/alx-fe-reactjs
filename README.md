@@ -1,16 +1,44 @@
-# React + Vite
+# Form Handling in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to build and manage forms in React using:
 
-Currently, two official plugins are available:
+1. Controlled Components (useState)
+2. Formik + Yup (Advanced form handling)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is part of the ALX Frontend ReactJS track.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Features
 
-## Expanding the ESLint configuration
+- User registration form using controlled inputs
+- Form validation (empty fields check)
+- Formik form with Yup validation schema
+- Clean and simple project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+src/components  
+├── RegistrationForm.jsx  
+├── FormikForm.jsx  
+
+---
+
+## 🛠 Technologies Used
+
+- React (Vite)
+- Formik
+- Yup
+- JavaScript
+- CSS
+
+---
+
+## ▶ How to Run the Project
+
+Install dependencies:
+
+```bash
+npm install
