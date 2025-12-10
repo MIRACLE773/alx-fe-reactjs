@@ -9,7 +9,7 @@ It is part of the ALX Frontend ReactJS track.
 
 ---
 
-##  Features
+## Features
 
 - User registration form using controlled inputs
 - Form validation (empty fields check)
